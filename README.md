@@ -40,7 +40,7 @@ Whatsapp has quickly become the world’s most popular text and voice messaging 
 ### Beginning. How do I export my conversations? From Where To Obtain Data?
 
 <p align="center">
-<img src="https://media.giphy.com/media/5wWf7H89PisM6An8UAU/giphy.gif" width=350>
+<img src="assets/extras/4-the-office.gif" width=350>
 </p>
 
 - The first step is **Data Retrieval & Preprocessing**, that is to **gather the data**. WhatsApp allows you to **export your chats** through a **.txt format**. 
