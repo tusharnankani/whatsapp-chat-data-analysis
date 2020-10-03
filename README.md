@@ -12,10 +12,19 @@ If the Notebook fails to load:
 - [Introduction](#introduction)
 - [Data Retrieval & Preprocessing](#data-retrieval--preprocessing)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Data Visualization]
-- [Data Interpretation]
-- [Summarizing the Inferences]
-- [Conclusion](Conclusion)
+
+  - **[Overall frequency of total messages on the group.](#the-overall-frequency-of-total-messages-on-the-group)**
+  - **[Top 10 most active days.](#top-10-most-active-days)**
+  - **[Top 10 active users on the group (with a twist)](#top-10-active-users-on-the-group)**
+    - Ghosts present in the group. (shocking results.)
+  - **[Top 10 users most sent media.](#the-top-10-users-who-send-the-most-media)**
+  - **[Top 10 most used emojis.](#top-10-most-used-emojis)**
+  - **[Most active hours and days.](#top-10-most-used-emojis)**
+    - Heatmaps of weekdays and months.
+    - Most active hours, weekdays, and months.
+  - **[Most used words - WordCloud](#most-used-words-in-the-whole-chat)**
+  
+- [Conclusion](#conclusion)
 
 # *Introduction*:
 
@@ -59,7 +68,7 @@ Whatsapp has quickly become the world’s most popular text and voice messaging 
 - With media: exports about *10k messages along with pictures/videos* 
 - While exporting data, *avoid including media files* because if the number of media files is greater than certain figure then not all the media files are exported.
 
-## Opening this .txt file up, you get messages in a format that looks like this:
+### Opening this .txt file up, you get messages in a format that looks like this:
 
 <img src="assets/extras/textfile.png" align="center">
 
@@ -125,7 +134,7 @@ Now that we have a clean DataFrame to work with, it’s time to perform analysis
 
 At this point, I think I’m ready to start my analysis so I will plot a simple line graph to see the frequency of messages over the months. 
 
-### The overall frequency of total messages on the group
+## The overall frequency of total messages on the group
 
 I expect to see a nice line graph with crests and troughs in odd places.
 
@@ -139,7 +148,7 @@ I expect to see a nice line graph with crests and troughs in odd places.
 <img src="assets/plots/msg_plots.png">
 </p>
 
-### Top 10 Most Active Days
+## Top 10 Most Active Days
 Grouping the data set by date and sorting values according to the number of messages per day.
 
 
@@ -157,7 +166,7 @@ Grouping the data set by date and sorting values according to the number of mess
 
 Apparently, the group was very active on 13th September’20 because we were discussing fundamental yet tricky and brain-wracking “Guess the Output” Java questions!
 
-### Top 10 active users on the group
+## Top 10 active users on the group
 
 Before analyzing, the top users, let’s find out how many ghosts are there in the group!
 
@@ -389,7 +398,7 @@ Now, we will be plotting ***grouped by day and respective group by month simulta
 <img src="assets/plots/days_and_month.png">
 </p>
 
-### *Inferences*
+## *Inferences*
 
 - The group is **most active on Sundays**, and **least active on Mondays** (probably *Monday Blues*.)
 
@@ -406,7 +415,7 @@ To get a clearer understanding, we will plot a combined graph — **Heatmap**.
 <img src="assets/code_snippets/carbon (27).png">
 </p>
 
-#### Heatmap of Month sent and Day sent
+### Heatmap of Month sent and Day sent
 
 <p align="center">
 <img src="assets/plots/month_day_heatmap.png">
