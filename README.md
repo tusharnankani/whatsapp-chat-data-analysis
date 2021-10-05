@@ -1,3 +1,5 @@
+![alt text](/assets/whatsapp-chat-data-analysis.jpeg)
+
 # A Comprehensive Data Analysis on a WhatsApp Group Chat
 
 - Have a look at a **detailed [Medium Article](https://medium.com/@tusharnankani/an-exhaustive-whatsapp-chat-data-analysis-f8421a845c30)** for this project!
